@@ -8,8 +8,9 @@ https://finicity.zendesk.com/hc/en-us/categories/201262086-Financial-Data-API-Fa
 <br />
 ## What Changed:
 The Orginal SDK Code: <br />
+>
     HttpWebRequest httpWebRequest = (HttpWebRequest) WebRequest.Create(new Uri("https://oauth.intuit.com/oauth/v1/get_access_token_by_saml")); <br />
-<br />
+
 This Removed the Hardcoded Address and allows for configuration via AppSettings in application config. <br />
 >				// set key in your application settings appSettings for finicity
 				//   <appSettings>
